@@ -1,18 +1,3 @@
 :root {
     
 }
-
-.header {
-    display: inline-block;
-    box-sizing: border-box;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding: 20px
-    
-}
-
-nav {
-    display: inline-block;
-    list-style-type: none;
-}
