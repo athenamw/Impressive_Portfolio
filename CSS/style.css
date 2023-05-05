@@ -2,7 +2,11 @@
     
 }
 
-nav{
-    display: inline-flexbox;
-
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+    
 }
