@@ -1,3 +1,28 @@
-:root {
-    
+.toprow{
+ display: flex;   
+ justify-content: space-between;
+ align-items: center;
+}
+
+img{
+    width: 100px;
+    height:auto;
+}
+
+nav{
+    justify-content: end;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
 }
