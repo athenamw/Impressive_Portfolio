@@ -1,17 +1,16 @@
-.toprow,
-footer{
- display: flex;   
- justify-content: space-between;
- align-items: center;
- background: rgb(113,22,224);
- background: linear-gradient(0deg, rgba(113,22,224,1) 0%, rgba(45,234,253,1) 100%);
+.toprow{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(45,234,253);
+    background: linear-gradient(0deg, rgba(45,234,253,1) 0%, rgba(113,22,224,1) 100%);
 }
 
 img{
     width: 200px;
     height:200px;
     border-radius: 50%;
-    object-fit:contain;
+    object-fit:cover;
     border: solid;
 }
 
@@ -19,6 +18,7 @@ nav{
     justify-content: end;
     margin-left: 50px;
     font-size:25px;
+    
 }
 
 ul{
@@ -33,4 +33,13 @@ li{
 a{
     text-decoration: underline;
     color: black;
+}
+
+p{
+    background-color: #2deafd;
+}
+
+footer{
+    background: rgb(113,22,224);
+    background: linear-gradient(0deg, rgba(113,22,224,1) 0%, rgba(45,234,253,1) 100%);
 }
