@@ -1,6 +1,8 @@
+/* This has the black background */
 body{
-    background-color: black;
+    background-color: white;
 }
+/* header section */
 .toprow{
     display: flex;   
     justify-content: space-between;
@@ -10,7 +12,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
 }
-
+/* profile picture */
 img{
     width: 200px;
     height:200px;
@@ -18,7 +20,7 @@ img{
     object-fit:cover;
     border: solid;
 }
-
+/* navigation bar */
 nav{
     justify-content: end;
     margin-left: 50px;
@@ -29,23 +31,28 @@ nav{
 ul{
     list-style: none;
 }
-
+/* Navigation items */
 li{
     display: inline-block;
     margin-right: 10px;
 }
-
+/* navigation font */
 a{
     text-decoration: underline;
-    color:#7116e0 ;
+    color:black ;
 }
-
+/* section colors and font */
 p{
     background-color: #2deafd;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 footer{
     background: rgb(113,22,224);
     background: linear-gradient(0deg, rgba(113,22,224,1) 0%, rgba(45,234,253,1) 100%);
-}
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}    
