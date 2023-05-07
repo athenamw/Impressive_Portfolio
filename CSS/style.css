@@ -1,9 +1,14 @@
+body{
+    background-color: black;
+}
 .toprow{
     display: flex;   
     justify-content: space-between;
     align-items: center;
     background: rgb(45,234,253);
     background: linear-gradient(0deg, rgba(45,234,253,1) 0%, rgba(113,22,224,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
 }
 
 img{
@@ -18,7 +23,7 @@ nav{
     justify-content: end;
     margin-left: 50px;
     font-size:25px;
-    
+      
 }
 
 ul{
@@ -32,11 +37,12 @@ li{
 
 a{
     text-decoration: underline;
-    color: black;
+    color:#7116e0 ;
 }
 
 p{
     background-color: #2deafd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer{
