@@ -4,10 +4,11 @@
     --light-blue:#A3C7D6;
 }
 
-/* This has the black background */
+/* This has the background color*/
 body{
     background-color: var(--light-blue);
 }
+
 /* header section */
 .toprow{
     display: flex;   
@@ -18,14 +19,16 @@ body{
     font-size: 50px;
     color: var(--light-purple);
 }
+
 /* profile picture */
-img{
+header>img{
     width: 200px;
     height:200px;
     border-radius: 50%;
     object-fit:cover;
     border: solid;
 }
+
 /* navigation bar */
 nav{
     justify-content: end;
@@ -37,26 +40,43 @@ nav{
 ul{
     list-style: none;
 }
+
 /* Navigation items */
 li{
     display: inline-block;
     margin-right: 10px;
 }
+
 /* navigation font */
 a{
     text-decoration: underline;
     color:var(--light-purple) ;
 }
+
 /* section colors and font */
 p{
     background-color: var(--light-blue);
     font-family: Didot, serif;
     font-weight: 600;
 }
+
 h2{
     font-family: 'Copperplate Gothic Light';
-;
 }
+
+figure img{
+background-color: var(--light-blue);
+width:400px;
+height:400px;
+margin: 32px auto;
+transition: transform .2s;
+display: flex;
+}
+
+figure img:hover{
+    transform: scale(1.5)
+}
+
 footer{
     background: var(--dark-purple);
     position: relative;
