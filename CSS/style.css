@@ -70,19 +70,21 @@ figure{
   max-width: 400px;
   max-height: 400px;
   padding:4px;
-  /* margin: 32px auto; */
   transition: transform 0.2s;
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
   }
 
 figure:hover{
   transform: scale(1.5);
 }
 
-
-img.resize {
-  width:540px; /* you can use % */
-    height: auto;
+figure img {
+  max-width: 400px;
+  max-height: 400px;
 }
 
 footer {
