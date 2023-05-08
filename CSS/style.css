@@ -62,8 +62,23 @@ p {
 
 h2 {
   font-family: "Copperplate Gothic Light";
+  display: flex;
+  align-items: start;
+  grid-area: spot;
 }
 
+.horiseon{grid-area: spot1;}
+.placeholder1{grid-area: spot2;}
+.placeholder2{grid-area: spot3; align-items: center; display: flex;}
+
+.be-impressed{
+  display: grid;
+  grid-template-areas:
+  'spot spot'
+  'spot1 spot2'
+  'spot3 spot3';
+  gap:10px;
+}
 /* images in projects */
 figure{
   background-color: var(--light-blue);
@@ -75,7 +90,7 @@ figure{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
+  margin: 50px 0;
   }
 
 figure:hover{
