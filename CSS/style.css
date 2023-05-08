@@ -1,88 +1,95 @@
-:root{
-    --dark-purple: #3F3B6C;
-    --light-purple: #9F73AB;
-    --light-blue:#A3C7D6;
+:root {
+  --dark-purple: #3f3b6c;
+  --light-purple: #9f73ab;
+  --light-blue: #a3c7d6;
 }
 
 /* This has the background color*/
-body{
-    background-color: var(--light-blue);
+body {
+  background-color: var(--light-blue);
 }
 
 /* header section */
-.toprow{
-    display: flex;   
-    justify-content: space-between;
-    align-items: center;
-    background: var(--dark-purple);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    color: var(--light-purple);
+.toprow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark-purple);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  color: var(--light-purple);
 }
 
 /* profile picture */
-header>img{
-    width: 200px;
-    height:200px;
-    border-radius: 50%;
-    object-fit:cover;
-    border: solid;
+header > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid;
 }
 
 /* navigation bar */
-nav{
-    justify-content: end;
-    margin-left: 50px;
-    font-size:25px;
-    font-weight: 600;
+nav {
+  justify-content: end;
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 /* Navigation items */
-li{
-    display: inline-block;
-    margin-right: 10px;
+li {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 /* navigation font */
-a{
-    text-decoration: underline;
-    color:var(--light-purple) ;
+header a {
+  text-decoration: underline;
+  color: var(--light-purple);
 }
 
 /* section colors and font */
-p{
-    background-color: var(--light-blue);
-    font-family: Didot, serif;
-    font-weight: 600;
+p {
+  background-color: var(--light-blue);
+  font-family: Didot, serif;
+  font-weight: 600;
 }
 
-h2{
-    font-family: 'Copperplate Gothic Light';
+h2 {
+  font-family: "Copperplate Gothic Light";
 }
 
-figure img{
-background-color: var(--light-blue);
-width:400px;
-height:400px;
-margin: 32px auto;
-transition: transform .2s;
-display: flex;
+/* images in projects */
+figure{
+  background-color: var(--light-blue);
+  max-width: 400px;
+  max-height: 400px;
+  padding:4px;
+  /* margin: 32px auto; */
+  transition: transform 0.2s;
+  vertical-align: top;
+  }
+
+figure:hover{
+  transform: scale(1.5);
 }
 
-figure img:hover{
-    transform: scale(1.5)
+
+img.resize {
+  width:540px; /* you can use % */
+    height: auto;
 }
 
-footer{
-    background: var(--dark-purple);
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: var(--light-purple);
-}    
-
+footer {
+  background: var(--dark-purple);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--light-purple);
+}
