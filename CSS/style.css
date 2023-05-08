@@ -1,16 +1,16 @@
 /* This has the black background */
 body{
-    background-color: white;
+    background-color: #A3C7D6;
 }
 /* header section */
 .toprow{
     display: flex;   
     justify-content: space-between;
     align-items: center;
-    background: rgb(45,234,253);
-    background: linear-gradient(0deg, rgba(45,234,253,1) 0%, rgba(113,22,224,1) 100%);
+    background: #3F3B6C;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
+    color: #9F73AB;
 }
 /* profile picture */
 img{
@@ -25,7 +25,6 @@ nav{
     justify-content: end;
     margin-left: 50px;
     font-size:25px;
-      
 }
 
 ul{
@@ -39,20 +38,23 @@ li{
 /* navigation font */
 a{
     text-decoration: underline;
-    color:black ;
+    color:#9F73AB ;
 }
 /* section colors and font */
 p{
-    background-color: #2deafd;
+    background-color: #A3C7D6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
+h2{
+    font: white
+;
+}
 footer{
-    background: rgb(113,22,224);
-    background: linear-gradient(0deg, rgba(113,22,224,1) 0%, rgba(45,234,253,1) 100%);
+    background: #3F3B6C;
     position: relative;
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: #9F73AB;
 }    
+
