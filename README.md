@@ -10,6 +10,8 @@ N/A
 
 #Credits
 
+reset.css file was found in course material
+
 placeholder 1 image: https://www.vectorstock.com/royalty-free-vector/project-management-vector-12905915
 placeholder 1 video: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
 
@@ -25,3 +27,7 @@ Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
 
 #How to Contribute
 Let me know by using the contact me section for recommendations for improvement or tips. 
+
+
+#Deployed Website
+https://athenamw.github.io/Impressive_Portfolio/ 
