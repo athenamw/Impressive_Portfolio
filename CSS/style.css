@@ -63,6 +63,7 @@ p {
 h2 {
   font-family: "Copperplate Gothic Light";
   font-style: bold;
+  font-size: 40px;
   grid-area: spot;
 }
 /* grid for projects */
@@ -102,6 +103,16 @@ figure img {
   max-height: 400px;
 }
 
+/* contact me */
+.holla-at-me img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid var(--light-purple)
+  
+}
+
 footer {
   background: var(--dark-purple);
   position: relative;
@@ -109,4 +120,5 @@ footer {
   width: 100%;
   text-align: center;
   color: var(--light-purple);
+  font-size: 30px;
 }
