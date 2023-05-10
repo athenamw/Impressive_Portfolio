@@ -114,9 +114,8 @@ figure img {
 
 /* contact me images*/
 .holla-at-me img {
-  display: flexbox;
-  margin-inline: 180px;
-  position: relative;
+  display: inline-flex;
+  align-items: center;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -124,6 +123,9 @@ figure img {
   border: solid var(--light-purple);
 }
 
+.holla-at-me img:hover{
+  transform: scale(1.5);
+}
 footer {
   background: var(--dark-purple);
   position: relative;
