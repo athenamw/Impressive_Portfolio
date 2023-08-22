@@ -2,7 +2,7 @@
 
 # Description
 
-This project is the start of a professional portfolio. The goal is to use this as a continuos, evolving project that grows as I do. It is meant to highlight my skills and shoe employers my abilities.
+This project is the start of a professional portfolio. The goal is to use this as a continuous, evolving project that grows as I do. It is meant to highlight my skills and shoe employers my abilities.
 I learned how to incorporate different CSS code to enhance my HTML code and make a functional website.
 
 # Installation
